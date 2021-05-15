@@ -1,0 +1,28 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Account;
+
+public class ExercicioBanco {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner (System.in);
+		
+		Account account = new Account();
+		
+		System.out.println ("Enter account number : ");
+		account.number = sc.nextInt();
+		System.out.println ("Enter account holder : ");
+		account.name = sc.nextLine();
+		System.out.println ("Enter initial deposit value: ");
+		account.value = sc.nextDouble();
+		sc.close();
+		
+		account.addValue(0);
+
+	}
+
+}

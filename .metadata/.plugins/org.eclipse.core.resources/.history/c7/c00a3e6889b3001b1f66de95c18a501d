@@ -1,0 +1,15 @@
+package entities;
+
+public class Account {
+
+	public int number;
+	public String name;
+	public String deposit;
+	
+	public double deposit() {
+		if (deposit == "y") {
+			return System.out.println ("Enter a initial deposit value : ");
+		};
+	}
+	
+}

@@ -1,0 +1,10 @@
+package entities;
+
+public class Dolar {
+
+	public static double IOF = 0.6;
+	
+	public static double dollarToReal(double amount, double dollarPrice) {
+		return amount * dollarPrice * IOF;
+	}
+}

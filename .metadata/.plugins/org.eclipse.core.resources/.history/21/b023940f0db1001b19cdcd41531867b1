@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a temperatura em celcius : ");
+		double c = sc.nextDouble();
+		double f = 9.0 * c / 5.0 + 32.0;
+		System.out.println("A temperatura em Fareheit é : " + f);
+		
+		
+		sc.close();
+	}
+}

@@ -1,0 +1,12 @@
+package entities;
+
+import java.util.Date;
+
+import enumentities.OrderStatus;
+
+public class Order {
+	Date moment;
+	OrderStatus status;
+	
+	
+}

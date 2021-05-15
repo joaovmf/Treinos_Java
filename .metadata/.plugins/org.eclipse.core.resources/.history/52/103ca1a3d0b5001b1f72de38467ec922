@@ -1,0 +1,22 @@
+package entities;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import enumentities.OrderStatus;
+
+public class Order {
+	
+	public static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	
+	private OrderStatus status;
+	private Date moment;
+	
+	private Client client;
+	private List<OrderItem> items = new ArrayList<>();
+	
+	
+	
+	
+}
+	

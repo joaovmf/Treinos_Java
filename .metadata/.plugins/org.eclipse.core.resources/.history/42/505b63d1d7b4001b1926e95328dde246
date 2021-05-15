@@ -1,0 +1,28 @@
+package application;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+
+
+
+public class ProgramDate {
+
+	public static void main(String[] args) throws ParseException {
+	
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		
+		ProgramDate d = ProgramDate.from(Instant.parse("2018-06-25T15:42:0ZTZ"));
+		
+		System.out.println(sdf.format(d));
+		
+		
+		
+		
+
+	}
+
+	private static ProgramDate from(Instant parse) {
+		return null;
+	}
+
+}

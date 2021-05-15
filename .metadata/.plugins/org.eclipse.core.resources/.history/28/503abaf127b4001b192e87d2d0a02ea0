@@ -1,0 +1,38 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Array2;
+
+public class Array {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.print("Array value : ");
+		int n = sc.nextInt();
+		Array2 [] vect = new Array2 [n];
+		
+		for (int i = 0 ; i < n ; i++) {
+			System.out.print("Product name : ");
+			String name = sc.next();
+			System.out.print("Product price : ");
+			double price = sc.nextDouble();
+			vect [i] = new Array2 (name,price);
+		}
+		
+		double soma = 0.0;
+		for (int i = 0 ; i < n ; i++) {
+			soma += vect[i].getPrice();
+		}
+		
+		double media = soma/ n;
+		
+		System.out.printf("PRICE MEDIA: %.2f " , media);
+
+		sc.close();
+	}
+
+}
