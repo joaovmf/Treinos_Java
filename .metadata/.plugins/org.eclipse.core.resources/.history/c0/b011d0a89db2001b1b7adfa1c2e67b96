@@ -1,0 +1,36 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Functionary;
+
+public class functionaryProgram {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Functionary f = new Functionary();
+		
+		System.out.println("Name : ");
+		f.name = sc.nextLine();
+		System.out.println("Gross salary : ");
+		f.salary = sc.nextDouble();
+		System.out.println("Tax : ");
+		f.tax = sc.nextDouble();
+		
+		System.out.println();
+		System.out.println("Employee: " + f);
+		System.out.println();
+		
+		System.out.print("Which percentage to increase salary? ");
+		double percentage = sc.nextDouble();
+		emp.increaseSalary(percentage);
+		System.out.println();
+		System.out.println("Updated data: " + emp);
+		sc.close();
+		}
+		}
+		
+		
+		
+		

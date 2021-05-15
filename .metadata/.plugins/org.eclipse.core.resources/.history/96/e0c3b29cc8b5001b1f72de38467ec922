@@ -1,0 +1,5 @@
+package enumentities;
+
+public enum OrderStatus {
+
+}

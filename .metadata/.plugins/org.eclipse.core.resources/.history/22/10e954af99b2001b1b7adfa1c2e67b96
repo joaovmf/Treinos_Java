@@ -1,0 +1,7 @@
+package entities;
+
+public class rectangle {
+
+	public double width;
+	public double height;
+}

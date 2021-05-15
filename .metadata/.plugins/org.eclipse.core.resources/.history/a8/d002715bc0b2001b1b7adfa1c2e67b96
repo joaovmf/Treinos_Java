@@ -1,0 +1,16 @@
+package application;
+interface DoMath {
+	double getArea(int rad); }
+
+interface MathPlus {
+	double getVol (int b, int h);
+}
+
+public class teste {
+	
+		 extends DoMath {
+			double getArea(int r); }
+
+}
+}
+

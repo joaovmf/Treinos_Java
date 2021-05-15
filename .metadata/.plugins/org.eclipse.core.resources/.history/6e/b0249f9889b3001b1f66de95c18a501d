@@ -1,0 +1,16 @@
+package entities;
+
+public class Account {
+
+	public int number;
+	public String name;
+	public String deposit;
+	public double value;
+	
+	public double deposit() {
+		if (deposit == "y") {
+			return value;
+		};
+	}
+	
+}

@@ -1,0 +1,38 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.product;
+
+public class productProgram {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		product x;
+		x = new product();
+		
+		x.name = "tv";
+		x.price = 900.00;
+		x.stock = 10;
+		
+		
+		
+		System.out.println(x.name + " , $" + x.price + " , " + x.stock + " units , $" + x.total);
+		
+		System.out.println("Enter the numbers of products to be in stock : ");
+		double add = sc.nextInt();
+		x.total(add);
+		System.out.println(x.name + " , $" + x.price + " , " + x.stock + " units , $" + x.total);
+		System.out.println("Enter the numbers of products to be remove from stock : ");
+		int remove = sc.nextInt();
+		x.stock -= remove;
+		x.total = x.price * x.stock;
+		System.out.println(x.name + " , $" + x.price + " , " + x.stock + " units , $" + x.total);
+		
+		sc.close();
+
+	}
+
+}

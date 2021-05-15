@@ -1,0 +1,31 @@
+package produtoprincipal;
+
+import java.util.Scanner;
+
+import produto2.produto2;
+
+public class produto {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		produto2 x;
+		x = new produto2();
+		
+		x.name = "tv";
+		x.price = 900.00;
+		x.stock = 10;
+		x.total = x.price * x.stock;
+		
+		
+		System.out.println(x.total);
+		
+		System.out.println("Enter the numbers of products to be in stock : ");
+		int add = sc.nextInt();		
+		
+		sc.close();
+
+	}
+
+}

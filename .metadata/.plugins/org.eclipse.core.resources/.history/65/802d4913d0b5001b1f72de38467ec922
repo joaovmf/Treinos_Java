@@ -1,0 +1,13 @@
+package entities;
+
+import java.util.Date;
+
+import enumentities.OrderStatus;
+
+public class Order {
+	private OrderStatus status;
+	private Date moment;
+	private Client client;
+	
+}
+	

@@ -1,0 +1,28 @@
+package treino;
+
+import java.util.Scanner;
+
+import treino2.funcionario;
+
+public class treinoprincipal {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		funcionario x, y;
+		x = new funcionario ();
+		y = new funcionario ();
+		
+		
+		System.out.print("Qual seu nome ? ");
+		x.nome = sc.next();
+		x.idade = sc.nextInt();
+		x.profissao = sc.next();
+		System.out.println("Enter the measures of triangle Y: ");
+		y.nome = sc.next();
+		y.idade = sc.nextInt();
+		y.profissao = sc.next();
+
+	}
+
+}

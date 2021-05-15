@@ -1,0 +1,8 @@
+package entities;
+
+public class Account {
+
+	public int number;
+	public String name;
+	
+}

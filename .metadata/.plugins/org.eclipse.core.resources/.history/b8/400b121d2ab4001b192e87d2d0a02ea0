@@ -1,0 +1,11 @@
+package entities;
+
+public class Array2 {
+
+	private String name;
+	private String email;
+	private int room;
+	
+
+	
+}

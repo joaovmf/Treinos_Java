@@ -1,0 +1,19 @@
+package entities;
+
+public class product {
+	public String name;
+	public double price;
+	public int stock;
+	
+	public double total() {
+		return price * stock;
+	}
+	
+	public void addProducts(int stock) {
+		this.stock += stock;
+	}
+	
+	public void removeProducts(int stock) {
+		this.stock -= stock;
+	}
+}
