@@ -1,8 +1,8 @@
-package treino;
+package application;
 
 import java.util.Scanner;
 
-import treino2.funcionario;
+import entities.funcionario;
 
 public class treinoprincipal {
 

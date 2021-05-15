@@ -1,4 +1,4 @@
-package treino2;
+package entities;
 
 public class funcionario {
 	public String nome;
