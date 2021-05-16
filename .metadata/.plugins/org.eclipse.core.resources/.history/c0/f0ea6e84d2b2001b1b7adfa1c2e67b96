@@ -1,8 +1,0 @@
-package entities;
-
-public class Dolar {
-
-	public static double dollarToReal(double buy, double dollarPrice) {
-		return buy * dollarPrice * (1.0 * 0.6);
-	}
-}

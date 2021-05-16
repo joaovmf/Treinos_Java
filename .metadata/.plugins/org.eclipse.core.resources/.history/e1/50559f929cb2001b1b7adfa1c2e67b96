@@ -1,8 +1,0 @@
-package entities;
-
-public class funcionary {
-
-	public String name;
-	public double salary;
-	public double tax;
-}

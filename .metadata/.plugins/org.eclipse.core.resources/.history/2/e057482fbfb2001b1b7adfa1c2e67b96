@@ -1,8 +1,0 @@
-interface DoMath {
-	double getArea(int rad); }
-
-interface MathPlus {
-	double getVol (int b, int h);}
-
-abstract class AllMath implements DoMath, MathPlus {
-public double getArea(int rad) { return rad * rad * 3.14; } }
