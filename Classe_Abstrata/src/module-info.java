@@ -1,0 +1,2 @@
+module Classe_Abstrata {
+}

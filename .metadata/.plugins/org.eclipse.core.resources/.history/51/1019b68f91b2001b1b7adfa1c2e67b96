@@ -1,8 +1,0 @@
-package produto2;
-
-public class produto2 {
-	public String name;
-	public double price;
-	public int stock;
-	public double total;
-	}
