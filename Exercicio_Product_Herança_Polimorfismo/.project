@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Exercicio_Product_Herança_Polimorfismo</name>
+=======
+<<<<<<< HEAD:Classe_Abstrata/.project
+	<name>Classe_Abstrata</name>
+=======
+	<name>Exercicio_Product_Herança_Polimorfismo</name>
+>>>>>>> 5cdcbeb3da2d8cc007a9bb91797dba2f7043eb41:Exercicio_Product_Herança_Polimorfismo/.project
+>>>>>>> 5cdcbeb3da2d8cc007a9bb91797dba2f7043eb41
 	<comment></comment>
 	<projects>
 	</projects>

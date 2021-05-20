@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Classe_Abstrata</name>
+=======
+<<<<<<< HEAD:exceções/.project
+	<name>exceções</name>
+=======
+	<name>Classe_Abstrata</name>
+>>>>>>> 5cdcbeb3da2d8cc007a9bb91797dba2f7043eb41:Classe_Abstrata/.project
+>>>>>>> 5cdcbeb3da2d8cc007a9bb91797dba2f7043eb41
 	<comment></comment>
 	<projects>
 	</projects>
