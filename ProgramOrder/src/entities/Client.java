@@ -48,4 +48,8 @@ public class Client {
 	
 	
 	
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b565e29abb55071306d79826e8671bc2088db731
